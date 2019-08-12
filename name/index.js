@@ -7,4 +7,4 @@ var city="Frankfurt am Main";
 var job="Butcher";
 var hobby="Play Soccer";
 var favdish="Pizza";
-console.log=(name, city, job, hobby, favdish);
+console.log(name, city, job, hobby, favdish);
