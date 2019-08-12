@@ -1,10 +1,13 @@
-var firstname = "Federico";
-var lastname = "Ientile";
-console.log(firstname, lastname); 
+var firstName = "Federico";
+var lastName = "Ientile";
+console.log(firstName, lastName); 
 
 var name="Robert Schulz";
 var city="Frankfurt am Main";
-var job="Butcher";
-var hobby="Play Soccer";
-var favdish="Pizza";
+var job="butcher";
+var hobby="Soccer";
+var favdish="pizza";
 console.log(name, city, job, hobby, favdish);
+
+console.log(name+" "+"is a"+" "+job+" "+"who lives in"+" "+city+" "+"and who plays"+" "+hobby+"."+" "+"He loves"+" "
++favdish+" "+"and goes every Saturday to a Pizzeria.")
