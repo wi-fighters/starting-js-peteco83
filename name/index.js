@@ -30,26 +30,38 @@ console.log(typeof isOpen)
 
 //5
 
-let ageMark = "19"
-let ageJohn = 34
-console.log(typeof ageMark)
-console.log(typeof ageJohn)
-
+let ageMark = "19";
+let ageJohn = 34;
+console.log(typeof ageMark);
+console.log(typeof ageJohn);
+let ageTest = ageMark>ageJohn;
 //6
 
-console.log((ageMark>ageJohn) ? "Yes, Mark is older than John" : "No, John is older than Mark")
+console.log("John is older than Mark:"+ageTest);
 
 //7
 
-let b = 7
-let a = "9"
-let c = 7
-console.log(b===a)
-console.log(c!==b)
-console.log(b!==a)
+let b = 7;
+let a = "9";
+let c = 7;
+console.log(b===a);
+console.log(c!==b);
+console.log(b!==a);
+
+console.log(typeof (b===a));
 
 //8
 
 let programmingLanguage = "Javascript"
 let isFun = true
 console.log(programmingLanguage+" is Fun:"+isFun)
+
+// 9
+
+let test
+console.log(typeof test)
+
+//10
+
+let calculation = (2 + 6) * 4 - 7 + (9 / 3)
+console.log(calculation)
