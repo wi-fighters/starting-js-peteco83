@@ -31,9 +31,9 @@ const tip3 = 35.92
 let perc1 = 10/100
 let perc2 = 15/100
 let perc3 = 20/100
-console.log(tip1+perc1)
-console.log(tip2+perc2)
-console.log(tip3+perc3)
+console.log(tip1 + (tip1*perc1))
+console.log(tip2 + (tip2*perc2))
+console.log(tip3 + (tip3*perc3))
 
 //6
 
