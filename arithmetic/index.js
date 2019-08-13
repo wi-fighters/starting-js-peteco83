@@ -19,8 +19,6 @@ const j = 4;
 let averageDays = (a+b+c+d+e+f+g+h+i+j);
 console.log((averageDays)/10);
 
-// 3
-
 let first = 75;
 let second = 70;
 let third = 85;
@@ -29,6 +27,12 @@ let fifth = 100;
 let averageTest = 85;
 let firstPart = 85 * 6;
 let secondPart = first+second+third+fourth+fifth;
-console.log(`Score in the sixth test is `+(firstPart-secondPart))
+console.log(`Score in the sixth test is ${firstPart-secondPart}`)
 
+//3 
 
+let primero = 80
+let segundo = 78
+let primer1 = 80 * 9
+let segun2 = 78 * 8
+console.log(`James needs a minimum of ${(primer1-segun2)}% to get an 80% average`)
