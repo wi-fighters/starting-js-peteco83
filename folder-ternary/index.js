@@ -7,17 +7,17 @@ console.log(ageCheck)
 
 // 2.
 
-const speedCheck = 130;
-const carSpeed = 120;
-const check = (canDrive >= speedCheck) ? "You're going too fast - slow down!" : "You're driving below the speed limit";
-console.log(check)
+const maxSpeed = 130;
+const speed = 120;
+const speedCheck = (speed >= maxSpeed) ? "You're going too fast - slow down!" : "You're driving below the speed limit";
+console.log(speedCheck)
 
 // 3.
 
-const personAge = 30;
-const allowedAge = 21;
-const alcoholAge = (personAge <= allowedAge)? "Here's some juice" : "Here's some wine";
-console.log(alcoholAge)
+const alcoholAge = 21;
+const age = 30;
+const allowedAge = (age <= alcoholAge)? "Here's some juice" : "Here's some wine";
+console.log(allowedAge)
 
 // 4.
 
@@ -31,3 +31,9 @@ const timeOfDay = 18
 const timeOfMorning = 12
 const currentHour = (timeOfDay <= timeOfMorning) ? "Good Morning" : "Good Evening";
 console.log(currentHour)
+
+//another example
+
+const morning = true;
+const timeOfDay3 = (morning) ? "Good Morning" : "Good Evening";
+console.log(timeOfDay3) 
