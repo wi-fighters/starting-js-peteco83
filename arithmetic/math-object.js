@@ -17,3 +17,7 @@ console.log(Math.floor(-9.78))
 console.log(Math.floor(28.329))
 
 console.log(Math.ceil(Math.random()*6))
+
+
+//Could you explain the concept you just learned at a job interview?
+// I learned that you cannot put many numbers in one line when you use ceil or floor. I tried myself and it didn't work.
