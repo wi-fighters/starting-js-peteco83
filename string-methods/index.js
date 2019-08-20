@@ -59,6 +59,6 @@ const job = "farmer";
 console.log(`My name is ${firstName}. I live in ${city} and I am a ${job}.`);
 
 //13
-const fox = "the quick brown fox"
-const foxFirst = fox[0]
-console.log(foxFirst.toUpperCase()+fox.substring(1))
+const fox = "the quick brown fox";
+const foxFirst = fox[0];
+console.log(foxFirst.toUpperCase()+fox.substring(1));
